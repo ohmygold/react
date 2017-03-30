@@ -1,0 +1,4 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.clear::before,clear::after{display: block;clear: both;content: ' '}
+.container{width: 100%;max-width:860px;margin: 0 auto;background-color: pink;}
+body{background-image: url(./img/car_img_30.jpg);}
