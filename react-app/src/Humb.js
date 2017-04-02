@@ -23,7 +23,8 @@ class Humb extends React.Component{
   }
   handleShow(){
     console.log();
-    this.refs.test.handleClick()
+    this.refs.test.handleClick();
+    console.log(this.aaa);
   }
   render(){
     let doms=this.state.date.map((item,index,array)=>
@@ -39,6 +40,7 @@ class Humb extends React.Component{
         <input ref='input' />
         <Test ref='test' />
         <button onClick={this.handleShow.bind(this)}>6666</button>
+        <input ref={(input)=>this.aaa=input}/>
       </div>
     )
   }

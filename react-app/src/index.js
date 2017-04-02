@@ -5,4 +5,4 @@ import App from './App';
 import Tab from './Tab.js'
 
 
-ReactDom.render(<Tab />,document.getElementById('root'))
+ReactDom.render(<App />,document.getElementById('root'))
