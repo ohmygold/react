@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Todo from './Todo';
+import Form from './Form.js';
+import './index.css';
 
 ReactDOM.render(
-  <Todo />,
+  <Form />,
   document.getElementById('root')
 );
